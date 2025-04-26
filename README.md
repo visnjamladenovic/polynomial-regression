@@ -17,8 +17,7 @@ It also plots the actual data points and the polynomial regression curve.
 
 1. Install the required libraries if you haven't already:
 
-```bash
-pip install numpy matplotlib scikit-learn
+pip install numpy matplotlib scikit-learn 
 
 2.	Run the Python script:
 python car.py

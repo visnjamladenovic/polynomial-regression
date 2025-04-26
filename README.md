@@ -1,6 +1,6 @@
 # Polynomial Regression - Car Fuel Efficiency
 
-This project uses **Polynomial Regression** (degree 3) to predict the fuel efficiency (kilometers per liter) of a car based on its weight.
+This project applies **Polynomial Regression** (degree 3) to predict a car's fuel efficiency (kilometers per liter) based on its weight.
 
 ## Technologies Used
 - Python
@@ -9,24 +9,12 @@ This project uses **Polynomial Regression** (degree 3) to predict the fuel effic
 - scikit-learn (sklearn)
 
 ## Project Description
-Given a dataset of car weights and their corresponding fuel efficiency values, a polynomial regression model of degree 3 is trained.  
-The model predicts how many kilometers per liter a car can travel based on its weight.  
-It also plots the actual data points and the polynomial regression curve.
+The project trains a polynomial regression model using a dataset of car weights and their corresponding fuel efficiency values.  
+It predicts how many kilometers per liter a car can travel depending on its weight and visualizes the data alongside the regression curve.
 
-## How to Run
+## Installation
 
-1. Install the required libraries if you haven't already:
+First, clone the repository:
 
-pip install numpy matplotlib scikit-learn 
-
-2.	Run the Python script:
-python car.py
-
-3.	The program will:
-
-	•	Plot a graph showing the relationship between weight and fuel efficiency.
-	•	Predict and display how many kilometers per liter a car weighing 1500 kg would achieve.
-
-Output Example
-A car weighing 1500kg gets 11.00 km per liter
-
+```bash
+git clone https://github.com/visnjamladenovic/polynomial-regression.git
